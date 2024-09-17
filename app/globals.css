@@ -1,3 +1,6 @@
+@import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css';
+
 html {
   scroll-behavior: smooth;
 }
@@ -276,6 +279,28 @@ span {
 .image-container {
   height: 100%;
   width: 100%;
+}
+
+.carousel-indicators {
+  bottom: -20px;
+}
+
+@media (min-width: 1199px) {
+  .carousel-indicators {
+    bottom: -40px;
+  }
+}
+
+@media (max-width: 991px) {
+  .carousel-indicators {
+    bottom: -40px;
+  }
+}
+
+@media (max-width: 991px) {
+  .carousel-indicators {
+    bottom: -40px;
+  }
 }
 
 .carousel-item {

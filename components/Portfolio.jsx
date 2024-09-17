@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import projects from '../data/portfolioData';
 
 export default function Portfolio() {
@@ -6,7 +7,13 @@ export default function Portfolio() {
     <div key={index} className="col-md-6 mb-5 mt-5">
       <a href={project.href} target="_blank" rel="noopener noreferrer" className="project-card-link">
         <div className="project-card">
-          <img src={project.src} alt={`Project ${index + 1}`} />
+          <Image 
+            src={project.src} 
+            alt={`Project ${index + 1}`} 
+            width={500} 
+            height={300} 
+            className="d-block w-100"
+          />
           <div className="main-row">
             <div className="header-row">
               <div className="row-text">
