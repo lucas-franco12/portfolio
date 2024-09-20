@@ -17,7 +17,7 @@ const projects = [
   },
   {
     title: 'Website Development for Evolution PGS',
-    demo: "Scroll to bottom for attendant demo | Username: user123 Password: pass123.",
+    demo: "",
     desc: "Allows for easy check-in process and provides company details on client-side. Formats customer information to better manage cars on the employee-side.",
     src: "/img/project3.jpeg",
     git: "https://github.com/lucas-franco12/ybor-city-valet-react.git",
@@ -33,7 +33,7 @@ const projects = [
   },
   {
       title: 'C++ Fitness Coach',
-      demo: "The code can be found on in this github repository.",
+      demo: "",
       desc: "C++ based automated fitness coaching application that interprets JSON data to dynamically generate personalized workout plans based on user preferences and skill levels.",
       src: "/img/project5.jpeg",
       git: "https://github.com/lucas-franco12/fitness-coach.git",
