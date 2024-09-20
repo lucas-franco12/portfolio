@@ -21,7 +21,7 @@ export default function Navbar() {
   return (
     <nav className={`navbar ${navbarDark ? 'navbar-dark' : ''}`}>
       <a href="#" className="logo">Lucas <span>Franco</span></a>
-      <ul className='navlist flex'>
+      <ul className='navlist'>
         <li><a className="nav-link" href="#hero">Home</a></li>
         <li><a className="nav-link" href="#about">About</a></li>
         <li><a className="nav-link" href="#projects">Projects</a></li>

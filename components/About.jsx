@@ -20,8 +20,8 @@ export default function About() {
       <Image
         src={image.src}
         alt={image.alt}
-        width={1000}  // adjust this based on the actual size you want
-        height={600}  // adjust this based on the actual size you want
+        width={1000}  
+        height={600}  
         className="d-block w-100"
       />
     </div>
@@ -58,7 +58,7 @@ export default function About() {
           </button>
         </div>
         <div className="about-text col-12 col-lg-6" data-aos="zoom-in-up">
-          <h4>👋 <strong>Hello!</strong></h4>
+        <h4>👋 <strong>Hello!</strong></h4>
           <p>
             I am a passionate Full Stack Web Developer and Software Engineer who
             is dedicated to empowering businesses both big and small with
